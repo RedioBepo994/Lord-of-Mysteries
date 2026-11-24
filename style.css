@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1D242C;
+    color: #e0e0e0;
+    font-family: serif;
+}
+
+header{
+    background-color: #595959;
+    padding: 4px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.LOTM-logo{
+    width: 10%;
+}
+
+/********************************************** info **********************************************/
+
+.horizontal{
+    margin: 7px 50px;
+    list-style: none;
+    display: flex;
+    justify-self: center;
+}
+
+.horizontal a{
+    color: #F2C36D;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.horizontal a:hover{
+    color: #997a42;
+}
+
+.info{
+    width: auto;
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+}
+
+.city-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.info-text{
+    margin: 3rem auto 2rem;
+    font-size: 3rem;
+}
+
+/********************************************** Cards **********************************************/
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 100px;
+    justify-content: center;
+}
+
+.card{
+    background: #3d3d3d;
+    border-radius: 40px;
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.card h2{
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.card p{
+    font-size: 45px;;
+    margin: 5px 0 20px;
+}
+
+.card a{
+    display: inline-block;
+    margin: 15px;
+    padding: 40px 80px;
+    background-color: #c8c8c8;
+    color: #383838;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 40px;
+}
